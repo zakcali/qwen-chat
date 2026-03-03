@@ -1,0 +1,5 @@
+gradio
+dashscope
+openai
+pillow
+requests
