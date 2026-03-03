@@ -62,4 +62,4 @@ Customize the application by editing these files:
 
 ## 📄 License
 
-[MIT](LICENSE)
+
