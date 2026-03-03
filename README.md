@@ -13,7 +13,7 @@ A comprehensive, locally-hosted AI studio providing access to Alibaba's **Qwen**
 ## 🛠️ Prerequisites
 
 - **Python 3.8+**
-- **Qwen API Key**: Obtain your API key from the [Alibaba DashScope Console](https://dashscope.console.aliyun.com/).
+- **Qwen API Key**: Obtain your API key from the [Alibaba DashScope Console](https://modelstudio.console.alibabacloud.com/ap-southeast-1/).
 
 ## 📦 Installation
 
