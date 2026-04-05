@@ -217,9 +217,8 @@ with gr.Blocks(title="💬 Qwen Chatbot") as demo:
     stop_btn.click(fn=lambda: None, cancels=[e_submit, e_click], queue=False)
 
     clear_btn.click(
-        lambda: ([], "*Reasoning will appear here...*", gr.update(visible=False)),
-        outputs=[chatbot, thoughts_box, download_btn],
-        cancels=[e_submit, e_click],
+        lambda: ([], "", "*Reasoning will appear here...*", gr.update(visible=False)),
+        outputs=[chatbot, msg, thoughts_box, download_btn],
         queue=False
     )
 
